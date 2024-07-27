@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting visualiser</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <h1>Sorting visualiser</h1>
+        <div id="array"></div>
+            
+
+            <button onclick="bubbleSort()">Bubble sort</button>
+            <button onclick="selectionSort()">selection sort</button>
+            <button onclick="insertionSort()">insertion sort</button>
+            <button onclick="mergeSort()">merge sort</button>
+            <button onclick="generateArray()">generate a new array</button>
+            <br/>
+            <label for="speed-control">Speed(ms):</label><br/>
+            <input type="range" id="speedControl" min="10" max="2000" value="100">
+            <div id="complexity"></div>
+           
+        </div>
+        
+   
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

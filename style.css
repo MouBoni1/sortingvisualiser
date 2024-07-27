@@ -1,0 +1,38 @@
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+   
+    font-family: Arial, sans-serif; 
+    background-color:antiquewhite
+}
+
+#array{
+    display: flex;
+    margin-top: 20px;
+    height: 300px;
+    width: 80%;
+    align-items: flex-end;
+    border: 2px solid #333; 
+    background-color: #fff; 
+}
+.bar{
+    width: 10px; 
+    margin: 0 1px;
+     background-color: teal; 
+     transition: height 0.3s; 
+    }
+
+ button { margin: 20px; 
+    padding: 10px 20px;
+     font-size: 16px; 
+     cursor: pointer; 
+ }
+ #speedControl {
+    margin: 20px;
+}
+#complexity {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
